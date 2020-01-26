@@ -171,7 +171,7 @@ header{
     font-weight: 100;
     line-height: .4;
     letter-spacing: 2px;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     opacity: 0;
     animation: fadeUp .5s forwards;
     animation-delay: .5s;
