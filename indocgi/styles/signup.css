@@ -197,6 +197,10 @@ form{
 
 
 @media screen and (max-width: 700px){
+    .form-container{
+        padding-top: 2rem;
+    }
+
     .form-container::before{
         height: 10rem;
     }
@@ -217,3 +221,4 @@ form{
         top: 1.3rem;
         left: 37vw;
     }
+}
