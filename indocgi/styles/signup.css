@@ -198,6 +198,10 @@ form{
 
 @media screen and (max-width: 700px){
    
+    .form-container{
+        margin-bottom: -7rem;
+    }
+
     .form-container::before{
         height: 10rem;
     }
@@ -212,11 +216,8 @@ form{
         transform: initial;
         box-shadow: none;
     }
-
-    .form-container{
-        padding-top: 10rem;
-        padding-bottom: 0;
-
+    .input-group button{
+        margin: 2rem auto;
     }
 
     .form-container img{
