@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro:400,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,700&display=swap');
 /*Global styles*/
 *,
 *::before,
@@ -9,9 +9,9 @@
 }
 
 :root{
-    --main-font: 'Source Sans Pro', sans-serif;
-    --secondary-font: 'Herr Von Muellerhoff', cursive;
-    --body-font: 'Cabin', sans-serif;
+    --main-font: 'Nunito', sans-serif;
+    --secondary-font: 'Nunito', sans-serif;
+    --body-font: 'Nunito', sans-serif;
     --main-font-color-dark: #252525;
     --secondary-font-color: #c59d5f;
     --body-font-color: #515151;
@@ -20,6 +20,7 @@
 html {
     font-family: var(--body-font);
     font-size: 12px;
+    font-weight: 300;
     color: var(--body-font-color);
     scroll-behavior: smooth;
 }
@@ -149,6 +150,7 @@ header{
 
 .nav-link:hover{
     color: var(--secondary-font-color);
+    transition: ease .2s;
 }
 
 /*Hero*/
@@ -167,8 +169,8 @@ header{
 .sub-headline{
     font-size: 8.5rem; 
     font-family: var(--secondary-font);
-    color: var(--secondary-font-color);
-    font-weight: 100;
+    color: var(--secondary-font-color);   
+    font-weight: 700;
     line-height: .4;
     letter-spacing: 2px;
     margin-bottom: 1rem;
@@ -181,8 +183,8 @@ header{
     color: #ffffff;
     font-size: 3.7rem;
     font-family: var(--main-font);
-    text-transform: uppercase;
-    font-weight: 900;
+    text-transform: lowercase;
+    font-weight: 700;
     letter-spacing: .5rem;
     opacity: 0;
     margin-right: -.5rem;
@@ -247,7 +249,7 @@ header{
 .headline-description h5{
     color: #ffffff;
     font-size: 1.4rem;
-    font-weight: 100;
+    font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 1.2rem;
     letter-spacing: 3px;
@@ -402,7 +404,7 @@ footer{
 .footer-content h4{
     font-size: 1.9rem;
     text-transform: uppercase;
-    font-weight: 100;
+    font-weight: 300;
     letter-spacing: 3px;
     margin-bottom: 3rem;
 }
@@ -447,7 +449,7 @@ footer{
 }
 ::placeholder{
     font-family: var(--main-font);
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     padding-left: 5%;
 }
 .newsletter-input{
@@ -499,10 +501,18 @@ footer{
     .nav-item{
         margin: 0 2.4rem;
         border: none;
+        font-weight: 700;
+    }
+
+    .nav-item i{
+        font-size: 2rem;
     }
 
     .nav-item:last-child{
-        margin-right: 0;
+        margin-right: 2.5rem;
+        position: relative;
+        transform: translateY(-2px);
+
     }
 
     .nav-link{
@@ -519,7 +529,7 @@ footer{
         width: 100%;
         height: 2px;
         background-color: #ffffff;
-        left: 0;
+        left: -1px;
         bottom: -3px;
     }
 
