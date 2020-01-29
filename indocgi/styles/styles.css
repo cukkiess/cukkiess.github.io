@@ -13,7 +13,7 @@
     --secondary-font: 'Nunito', sans-serif;
     --body-font: 'Nunito', sans-serif;
     --main-font-color-dark: #252525;
-    --secondary-font-color: #c59d5f;
+    --secondary-font-color: moccasin;
     --body-font-color: #515151;
 }
 
@@ -249,18 +249,28 @@ header{
 
 .btn{
     display: inline-block;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-right: -2px;
+    color: lightcoral;
 }
 
 .cta-btn{
     font-size: 1.1rem;
+    font-weight: 700;
     background-color: #ffffff;
     padding: .9rem 1.8rem;
-    color: var(--body-font-color);
+    color: lightcoral;
     border-radius: 2rem;
 }
+
+.cta-btn:focus,
+.cta-btn:hover{
+    box-shadow: 0 0 20px lightcoral;
+    transition: all 0.2s ease;
+}
+
 
 /* Discover our story */
 .global-headline{
@@ -303,7 +313,7 @@ header{
 
 .body-btn{
     font-size: 1.5rem;
-    color: var(--secondary-font-color);
+    color: lightcoral;
     position: relative;
     transition: color .5s;
 }
@@ -314,18 +324,18 @@ header{
     bottom: -3px;
     width: 100%;
     height: 2px;
-    background-color: var(--secondary-font-color);
+    background-color: lightcoral;
     transition: background-color .5s;
 }
 
 .body-btn:hover,
 .body-btn:focus{
-    color: var(--main-font-color-dark)
+    color: coral
 }
 
 .body-btn:hover::before,
 .body-btn:focus::before{
-    background-color: var(--main-font-color-dark);
+    background-color: coral;
 }
 
 /* Tasteful recipes */
