@@ -169,11 +169,11 @@ header{
 .sub-headline{
     font-size: 8.5rem; 
     font-family: var(--secondary-font);
-    color: var(--secondary-font-color);   
+    color: moccasin;   
     font-weight: 700;
     line-height: .4;
     letter-spacing: 2px;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     opacity: 0;
     animation: fadeUp .5s forwards;
     animation-delay: .5s;
@@ -233,7 +233,7 @@ header{
 
 .asterisk{
     font-size: 1.2rem;
-    color: var(--secondary-font-color);
+    color: moccasin;
     margin: 0 1.6rem;
     opacity: 0;
     animation: spin 2s forwards;
@@ -339,7 +339,7 @@ header{
 
 /* Tasteful recipes */
 .tasteful-recipes{
-    background: url("../images/tasteful-recipes.jpg") center no-repeat;
+    background: url("../images/indocgi_sample_8.jpg") center no-repeat;
     background-size: cover;
 }
 
@@ -363,7 +363,7 @@ header{
 
 /* The perfect blend */
 .perfect-blend{
-    background: url("../images/perfect-blend.jpg")center no-repeat;
+    background: url("../images/indocgi_sample_7.jpg")center no-repeat;
     background-size: cover;
 }
 
@@ -534,7 +534,7 @@ footer{
     }
 
     .sub-headline{
-        font-size: 10rem;
+        font-size: 8rem;
     }
 
     .headline{
