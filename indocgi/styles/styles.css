@@ -45,7 +45,7 @@ a{
 
 p{
     font-size: 1.6rem;
-    margin: 0 2rem;
+    margin: 0 2.5rem;
 }
 
 .container{
@@ -95,6 +95,7 @@ header{
     width: 80%;
     height: 100vh;
     background-color: var(--main-font-color-dark);
+    opacity: .85;
     padding: 4.4rem;
     display: flex;
     flex-direction: column;
@@ -167,13 +168,14 @@ header{
 }
 
 .sub-headline{
-    font-size: 8.5rem; 
+    font-size: 4.2rem; 
     font-family: var(--secondary-font);
     color: moccasin;   
     font-weight: 700;
-    line-height: .4;
-    letter-spacing: 2px;
-    margin-bottom: 3rem;
+    line-height: 5rem;
+    letter-spacing: 1px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     opacity: 0;
     animation: fadeUp .5s forwards;
     animation-delay: .5s;
@@ -181,11 +183,10 @@ header{
 
 .headline{
     color: #ffffff;
-    font-size: 3.7rem;
+    font-size: 3rem;
     font-family: var(--main-font);
-    text-transform: lowercase;
     font-weight: 700;
-    letter-spacing: .5rem;
+    letter-spacing: .1rem;
     opacity: 0;
     margin-right: -.5rem;
     animation: scale .5s forwards;
@@ -199,9 +200,9 @@ header{
 
 .line{
     width: 100%;
-    max-width: 5rem;
+    max-width: 10rem;
     height: .25rem;
-    margin: 3rem;
+    margin: 2rem;
     background-color: #ffffff;
     position: relative;
     opacity: 0;
@@ -215,20 +216,10 @@ header{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    border: .6rem solid transparent;
+    border: .7rem solid transparent;
     opacity: 0;
     animation: grow .5s forwards;
     animation-delay: 1.2s;
-}
-
-.line-right::before{
-    border-right-color: #ffffff;
-    right: 0;
-}
-
-.line-left::before{
-    border-left-color: #ffffff;
-    left: 0;
 }
 
 .asterisk{
@@ -248,7 +239,7 @@ header{
 
 .headline-description h5{
     color: #ffffff;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 1.2rem;
@@ -288,8 +279,8 @@ header{
 
 .headline-dark{
     color: var(--main-font-color-dark);
-    letter-spacing: .7rem;
-    margin-right: -.7rem;
+    letter-spacing: .1rem;
+    margin-right: -.5rem;
 }
 
 .global-headline .sub-headline{
@@ -394,6 +385,7 @@ footer{
     font-size: 2rem;
     padding: 2rem;
     animation: up 2s infinite;
+    margin-top: .15rem;
 }
 
 .footer-content{
@@ -449,7 +441,7 @@ footer{
 }
 ::placeholder{
     font-family: var(--main-font);
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     padding-left: 5%;
 }
 .newsletter-input{
@@ -458,6 +450,7 @@ footer{
     padding: 1rem;
     border-radius: 2rem;
     border: none;
+    margin: 1rem auto;
 }
 
 .newsletter-btn{
@@ -535,10 +528,12 @@ footer{
 
     .sub-headline{
         font-size: 8rem;
+        margin: 5rem auto;
     }
 
     .headline{
         font-size: 4.7rem;
+        margin: 3rem auto;
     }
 
     .line{
