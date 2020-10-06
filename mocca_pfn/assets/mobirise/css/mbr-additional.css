@@ -1947,50 +1947,35 @@ a {
 .cid-scFNzTuh3q .card-title {
   color: #ff6666;
 }
-.cid-scGe8C6vPK {
+.cid-scGjKaJHpu {
   padding-top: 6rem;
   padding-bottom: 6rem;
   background-color: #ffffff;
 }
-.cid-scGe8C6vPK .nav-tabs .nav-item.open .nav-link:focus,
-.cid-scGe8C6vPK .nav-tabs .nav-link.active:focus {
-  outline: none;
+.cid-scGjKaJHpu .mbr-iconfont {
+  font-size: 1.4rem !important;
+  font-family: 'Moririse2' !important;
+  color: #6592e6;
+  margin-left: 1rem;
 }
-.cid-scGe8C6vPK .nav-tabs {
-  flex-wrap: wrap;
-  border-bottom: 1px solid #ff6666;
-}
-@media (max-width: 767px) {
-  .cid-scGe8C6vPK .nav-item {
-    width: 100%;
-    margin: 0;
-  }
-}
-.cid-scGe8C6vPK .nav-tabs .nav-link {
-  transition: all .5s;
+.cid-scGjKaJHpu .panel-group {
   border: none;
-  border-bottom: 3px solid transparent;
 }
-.cid-scGe8C6vPK .nav-tabs .nav-link:not(.active) {
-  color: #000000;
+.cid-scGjKaJHpu .panel-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.cid-scGe8C6vPK .nav-tabs .nav-item {
-  margin-right: 1.5rem;
-}
-.cid-scGe8C6vPK .nav-link,
-.cid-scGe8C6vPK .nav-link.active {
+.cid-scGjKaJHpu .panel-body,
+.cid-scGjKaJHpu .card-header {
   padding: 1rem 0;
-  background-color: transparent;
 }
-.cid-scGe8C6vPK .nav-tabs .nav-link.active {
+.cid-scGjKaJHpu .panel-title-edit {
   color: #ff6666;
-  border-bottom: 3px solid #ff6666;
 }
-.cid-scGe8C6vPK H4 {
-  text-align: center;
-}
-.cid-scGe8C6vPK H3 {
-  text-align: center;
+.cid-scGjKaJHpu .card .card-header {
+  background-color: transparent;
+  margin-bottom: 0;
 }
 .cid-sazEZwL34D {
   padding-top: 6rem;
