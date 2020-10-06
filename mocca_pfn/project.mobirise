@@ -68,11 +68,11 @@
       "settings": {
         "main": true,
         "title": "Home",
-        "meta_descr": "",
+        "meta_descr": "Mocca PFN games business plan",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/pfn-games-socmed-1280x905.jpg"
+        "meta_image": "@PROJECT_PATH@/assets/images/pfn-games-socmed-1080x1080.jpg"
       },
       "components": [
         {
