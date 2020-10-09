@@ -3773,19 +3773,98 @@ a {
   }
 }
 .cid-scNONRkMYw {
-  background-image: url("../../../assets/images/background13.jpg");
+  background-image: url("../../../assets/images/all-rails-to-landing-title-1920x696.jpg");
+}
+.cid-scNONRkMYw .mbr-text,
+.cid-scNONRkMYw .mbr-section-btn {
+  color: #ff6666;
+}
+.cid-scNONRkMYw .mbr-section-subtitle {
+  color: #ff6666;
+}
+.cid-scVLfHOIYK {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #353535;
+}
+.cid-scVSZV0pp1 {
+  background-color: #353535;
+}
+.cid-scVSZV0pp1 .mbr-section-title,
+.cid-scVSZV0pp1 .mbr-text,
+.cid-scVSZV0pp1 .mbr-section-btn {
+  text-align: center;
+}
+.cid-scVSZV0pp1 .video-wrapper {
+  margin: auto;
+}
+.cid-scVSZV0pp1 .video-wrapper iframe {
+  width: 100%;
+}
+.cid-scVSZV0pp1 .mbr-section-title {
+  color: #ffffff;
+}
+.cid-scVKpZRALH {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #353535;
+}
+.cid-scVKpZRALH img,
+.cid-scVKpZRALH .item-img {
+  height: 100%;
+  object-fit: cover;
+}
+.cid-scVKpZRALH .item:focus,
+.cid-scVKpZRALH span:focus {
+  outline: none;
+}
+.cid-scVKpZRALH .item {
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+.cid-scVKpZRALH .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.cid-scVKpZRALH .item {
+  padding: 0;
+  margin: 0;
+}
+.cid-scVKpZRALH .item-wrapper {
+  position: relative;
+  border-radius: 4px;
+  background: #fafafa;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+@media (min-width: 992px) {
+  .cid-scVKpZRALH .item-wrapper .item-content {
+    padding: 2rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-scVKpZRALH .item-wrapper .item-content {
+    padding: 1rem;
+  }
+}
+.cid-scVKpZRALH .mbr-section-btn {
+  margin-top: auto !important;
+}
+.cid-scVKpZRALH .mbr-section-title {
+  color: #ffffff;
 }
 .cid-scNLCylKPp {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #ffffff;
+  background-color: #232323;
 }
 .cid-scNLCylKPp .number-wrap {
-  color: #353535;
+  color: #ffffff;
   text-align: center;
 }
 .cid-scNLCylKPp .number {
-  color: #ff6666;
+  color: #ffd327;
 }
 .cid-scNLCylKPp .period {
   display: block;
@@ -3825,6 +3904,13 @@ a {
 }
 .cid-scNLCylKPp .icons-menu .soc-item .mbr-iconfont:hover {
   background-color: #6592e6;
+  color: #ffffff;
+}
+.cid-scNLCylKPp H3 {
+  color: #ffffff;
+}
+.cid-scNLCylKPp .mbr-text,
+.cid-scNLCylKPp .mbr-section-btn {
   color: #ffffff;
 }
 .cid-scNLCyPdYJ {
