@@ -3,5 +3,5 @@ var animation = bodymovin.loadAnimation({
     renderer: 'svg',
     loop: true,
     autoplay: true,
-    path: "landing_assets/office.json"
+    path: "landing_assets/all-rails.json"
 })
