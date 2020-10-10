@@ -3925,6 +3925,58 @@ a {
 .cid-scVKpZRALH .mbr-section-title {
   color: #353535;
 }
+.cid-sd2SnhxeL5 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+.cid-sd2SnhxeL5 .carousel-item {
+  justify-content: center;
+}
+.cid-sd2SnhxeL5 .carousel-item.active,
+.cid-sd2SnhxeL5 .carousel-item-next,
+.cid-sd2SnhxeL5 .carousel-item-prev {
+  display: flex;
+}
+.cid-sd2SnhxeL5 .carousel-controls a {
+  transition: opacity .5s;
+  font-size: 30px;
+  position: absolute;
+  top: 180px;
+  bottom: auto;
+  height: 60px;
+  width: 60px;
+  padding: 10px;
+  color: #155ce0;
+}
+.cid-sd2SnhxeL5 .carousel-controls a .mbr-iconfont {
+  font-weight: 800;
+}
+.cid-sd2SnhxeL5 .carousel-control-next span {
+  padding-left: 5px;
+}
+.cid-sd2SnhxeL5 .carousel-control-prev span {
+  padding-right: 5px;
+}
+.cid-sd2SnhxeL5 .user_image {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 1.6rem;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto 2rem auto;
+}
+.cid-sd2SnhxeL5 .user_image img {
+  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+}
+@media (max-width: 230px) {
+  .cid-sd2SnhxeL5 .user_image {
+    width: 100%;
+    height: auto;
+  }
+}
 .cid-scWLuBYQT3 {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -4414,21 +4466,6 @@ a {
     max-width: calc(100% + 2rem);
     left: -1rem;
   }
-}
-.cid-scXKCz6XcE {
-  background-image: url("../../../assets/images/all-rails-to-landing-title-1920x696.jpg");
-}
-.cid-scXKCz6XcE .mbr-text,
-.cid-scXKCz6XcE .mbr-section-btn {
-  color: #ff6666;
-}
-.cid-scXKCz6XcE .mbr-section-subtitle {
-  color: #ff6666;
-}
-.cid-scXKCzl6w8 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  background-color: #ffffff;
 }
 .cid-scXKCzsEge {
   padding-top: 6rem;
