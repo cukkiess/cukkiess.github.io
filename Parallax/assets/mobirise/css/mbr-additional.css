@@ -728,13 +728,14 @@ a {
   box-sizing: border-box;
 }
 .cid-sd4RQ1LGZU .parallax {
+  transform-origin: bottom;
+  transform: translateY(-100px);
   align-content: center;
   background-color: #FEDCC8;
   -webkit-perspective: 100px;
   perspective: 100px;
   width: 100vw;
-  transform: translateY(-100px);
-  height: 85vh;
+  height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
   position: center;
@@ -796,9 +797,18 @@ a {
 .cid-sd4RQ1LGZU .mbr-section-title {
   color: #ffffff;
 }
+.cid-sd4RQ1LGZU .appstore {
+  display: inline-block;
+  height: 2rem;
+  margin-left: -2rem;
+}
+.cid-sd4RQ1LGZU .appstore-icon {
+  border-style: none;
+  height: 64px;
+}
 .cid-sd5l63v0gF {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
   background-image: url("../../../assets/images/pfn-giman-hero.jpg");
 }
 @media (max-width: 991px) {
