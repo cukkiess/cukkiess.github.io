@@ -1,0 +1,230 @@
+{
+  "settings": {
+    "name": "PARALLAX",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise5",
+      "title": "Mobirise 5",
+      "styling": {
+        "primaryColor": "#6592e6",
+        "secondaryColor": "#ff6666",
+        "successColor": "#40b0bf",
+        "infoColor": "#47b5ed",
+        "warningColor": "#FFE161",
+        "dangerColor": "#ff9966",
+        "mainFont": "Jost",
+        "display1Font": "Permanent Marker",
+        "display1Size": 4.6,
+        "display2Font": "Indie Flower",
+        "display2Size": 3,
+        "display5Font": "Jost",
+        "display5Size": 2,
+        "display7Font": "Indie Flower",
+        "display7Size": "1.4",
+        "display4Font": "Indie Flower",
+        "display4Size": "1.2",
+        "isRoundedButtons": true,
+        "isGhostButtonBorder": true,
+        "underlinedLinks": true,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": true
+      },
+      "additionalSetColors": [
+        "#1e071e",
+        "#21051f",
+        "#2d112b"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "5.1.4",
+    "siteFonts": [
+      {
+        "css": "'Jost', sans-serif",
+        "name": "Jost",
+        "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      },
+      {
+        "css": "'Permanent Marker', handwriting",
+        "name": "Permanent Marker",
+        "url": "https://fonts.googleapis.com/css?family=Permanent+Marker:400"
+      },
+      {
+        "css": "'Indie Flower', handwriting",
+        "name": "Indie Flower",
+        "url": "https://fonts.googleapis.com/css?family=Indie+Flower:400"
+      }
+    ],
+    "dppsSwitcher": true,
+    "spellingSwitch": false,
+    "uniqCompNum": 11,
+    "versionPublish": "5.1.4",
+    "imageResize": false,
+    "screenshot": "screenshot.png",
+    "favicon": false,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "site_lang": "undefined",
+    "global_header_custom": "\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js\" type=\"text/javascript\"></script>\n  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>\n<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css\">"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": "deltapi-code-editor",
+          "_isSecondary": true,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            "*": {
+              "box-sizing": "border-box"
+            },
+            ".parallax": {
+              "align-content": "center",
+              "background-color": "#FEDCC8",
+              "-webkit-perspective": "100px",
+              "perspective": "100px",
+              "width": "100vw",
+              "transform": "translateY(-100px)",
+              "height": "85vh",
+              "overflow-x": "hidden",
+              "overflow-y": "auto",
+              "position": "center"
+            },
+            ".parallax__layer": {
+              "position": "absolute",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            ".parallax__layer img": {
+              "display": "block",
+              "position": "absolute",
+              "bottom": "0"
+            },
+            ".parallax__cover": {
+              "background": "#2D112B",
+              "display": "block",
+              "position": "absolute",
+              "top": "100%",
+              "left": "0",
+              "right": "0",
+              "height": "720px",
+              "z-index": "2"
+            },
+            ".parallax__layer__0": {
+              "-webkit-transform": "translateZ(-300px) scale(4)",
+              "transform": "translateZ(-300px) scale(4)"
+            },
+            ".parallax__layer__1": {
+              "-webkit-transform": "translateZ(-250px) scale(3.5)",
+              "transform": "translateZ(-250px) scale(3.5)"
+            },
+            ".parallax__layer__2": {
+              "-webkit-transform": "translateZ(-200px) scale(3)",
+              "transform": "translateZ(-200px) scale(3)"
+            },
+            ".parallax__layer__3": {
+              "-webkit-transform": "translateZ(-150px) scale(2.5)",
+              "transform": "translateZ(-150px) scale(2.5)"
+            },
+            ".parallax__layer__4": {
+              "-webkit-transform": "translateZ(-100px) scale(2)",
+              "transform": "translateZ(-100px) scale(2)"
+            },
+            ".parallax__layer__5": {
+              "-webkit-transform": "translateZ(-50px) scale(1.5)",
+              "transform": "translateZ(-50px) scale(1.5)"
+            },
+            ".parallax__layer__6": {
+              "-webkit-transform": "translateZ(0px) scale(1)",
+              "transform": "translateZ(0px) scale(1)"
+            }
+          },
+          "_name": "custom-html",
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#2d112b\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n<div class=\"parallax\">\n    <div class=\"parallax__layer parallax__layer__0\">\n        <img src=\"https://github.com/samdbeckham/blog/blob/master/dev/_assets/images/articles/firewatch/layer_0.png?raw=true\">\n    </div>\n    <div class=\"parallax__layer parallax__layer__1\">\n        <img src=\"https://github.com/samdbeckham/blog/blob/master/dev/_assets/images/articles/firewatch/layer_1.png?raw=true\">\n    </div>\n    <div class=\"parallax__layer parallax__layer__2\">\n        <img src=\"https://github.com/samdbeckham/blog/blob/master/dev/_assets/images/articles/firewatch/layer_2.png?raw=true\">\n    </div>\n    <div class=\"parallax__layer parallax__layer__3\">\n        <img src=\"https://github.com/samdbeckham/blog/blob/master/dev/_assets/images/articles/firewatch/layer_3.png?raw=true\">\n    </div>\n    <div class=\"parallax__layer parallax__layer__4\">\n        <img src=\"https://github.com/samdbeckham/blog/blob/master/dev/_assets/images/articles/firewatch/layer_4.png?raw=true\">\n    </div>\n        <div class=\"parallax__layer parallax__layer__5\">\n        <img src=\"https://github.com/cukkiess/cukkiess.github.io/blob/master/pfn-landing-parallax/images/birds_loop.gif?raw=true\">\n    </div>\n    <div class=\"parallax__layer parallax__layer__5\">\n        <img src=\"https://github.com/cukkiess/cukkiess.github.io/blob/master/pfn-landing-parallax/images/layer_55.png?raw=true\">\n    </div>\n    <div class=\"parallax__layer parallax__layer__6\">\n        <img src=\"https://github.com/samdbeckham/blog/blob/master/dev/_assets/images/articles/firewatch/layer_6.png?raw=true\">\n    </div>\n    <div class=\"parallax__cover\"></div>\n</div></section>",
+          "_cid": "sd4RQ1LGZU",
+          "_anchor": "custom-html-6",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "@media (max-width: 991px)": {
+              ".mbr-section-title, .mbr-section-subtitle, .mbr-section-btn, .mbr-text": {
+                "text-align": "center"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "header2",
+          "_customHTML": "<section class=\"header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"7\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/pfn-giman-hero.jpg\" parallax selected>\n            <input type=\"color\" title=\"Color\" value=\"#2d112b\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#2d112b\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>All Rails to Jogja</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Giman is a strong kid who looing for his true purposes of live. He supposed to go to Jogjakarta, a city full of hope. Will he survive during his adventure? Find out now...</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-success\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Free Download!</a>\n                    <a class=\"btn btn-success-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Live Demos &gt;</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sd5l63v0gF",
+          "_anchor": "header2-9",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            }
+          },
+          "_name": "header5",
+          "_customHTML": "<section class=\"header5\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked=\"\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline=\"\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"7\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value=\"\">Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\" selected=\"\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked=\"\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background9.jpg\" selected=\"\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Full Screen Intro</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Header Subtitle</h2>\n                <p class=\"mbr-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Mobirise gives you the freedom to develop as many websites as you like.</p>\n                <div mbr-buttons=\"\" mbr-theme-style=\"display-7\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-warning\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Create Free Website!</a>\n                    <a class=\"btn btn-warning-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Learn More</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sd5l7gi5gN",
+          "_anchor": "header5-a",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
