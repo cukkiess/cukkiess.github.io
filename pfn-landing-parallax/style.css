@@ -83,4 +83,10 @@ body {
 .parallax__layer__7 {
   -webkit-transform: translateZ(0px) scale(1);
           transform: translateZ(0px) scale(1);
+          display: block;
+          position: absolute;
+          left: 0;
+          right: 0;
+          max-width: 300px;
+          z-index: 3;
 }
