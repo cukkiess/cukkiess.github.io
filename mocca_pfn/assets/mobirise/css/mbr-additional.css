@@ -2762,15 +2762,15 @@ a {
   top: 50%;
   transform: translateY(-50%);
   background-color: #2C3E50;
-  width: 4vw;
-  height: 5px;
-  max-width: 50px;
+  width: 7vw;
+  height: 3px;
+  max-width: 70px;
 }
 .cid-sdboQQiYnS input::before {
-  left: calc(8.5vw);
+  left: calc(-61vw);
 }
 .cid-sdboQQiYnS input::after {
-  right: calc(8.5vw);
+  right: calc(-61vw);
 }
 .cid-sdboQQiYnS input:checked {
   background-color: #f79137;
@@ -2808,6 +2808,7 @@ a {
 .cid-sdboQQiYnS .dot-info span.year {
   bottom: -30px;
   word-break: normal;
+  margin-left: -12.5px;
 }
 .cid-sdboQQiYnS .dot-info span.label {
   top: -65px;
@@ -2864,10 +2865,10 @@ a {
     margin-left: 62.5px;
   }
   .cid-sdboQQiYnS input::before {
-    left: -37.5px;
+    left: -68.5px;
   }
   .cid-sdboQQiYnS input::after {
-    right: -37.5px;
+    right: -53.5px;
   }
   .cid-sdboQQiYnS .dot-info {
     left: calc(-49.75px);
