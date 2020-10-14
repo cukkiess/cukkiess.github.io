@@ -1,0 +1,377 @@
+<?php
+    $code = $_POST["accesskey"];
+    if($code != "moccaxpfn"){
+        header('Location: https://moccaanimation.com');
+    }
+?>
+
+<!DOCTYPE html>
+<html  lang="undefined">
+<head>
+  <!-- Site made with love by Novie Riyadi -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v5.1.4, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/mocca-fav-icon.svg" type="image/x-icon">
+  <meta name="description" content="All Rails to Jogja">
+  
+  
+  <title>All Rails to Jogja</title>
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  
+</head>
+<body>
+  
+<section class="mbr-section article content1 cid-sd4RQ1LGZU" id="custom-html-6">
+
+     
+
+    <div class="parallax">
+
+        
+        <div class="parallax__layer parallax__layer__0">
+            <img class="title-jogja" src="assets/images/all-rails-to-jogja-title.svg" alt="all-rails-to-jogja-title">
+            <img src="assets/images/layer-0.png" alt="">
+        </div>
+        <div class="parallax__layer parallax__layer__1">
+            <img src="assets/images/layer-1.png" alt="">
+        </div>
+        <div class="parallax__layer parallax__layer__2">
+            <img src="assets/images/layer-2.png" alt="">
+        </div>
+        <div class="parallax__layer parallax__layer__3">
+            <img src="assets/images/layer-3.png" alt="">
+        </div>
+        <div class="parallax__layer parallax__layer__4">
+            <img src="assets/images/layer-4.png" alt="">
+        </div>
+            <div class="parallax__layer parallax__layer__5">
+            <img src="assets/images/birds-loop.gif" alt="">
+        </div>
+        <div class="parallax__layer parallax__layer__5">
+            <img src="assets/images/layer-5.png" alt="">
+        </div>
+        <div class="parallax__layer parallax__layer__6">
+            <img src="assets/images/layer-6.png" alt="">
+        </div>
+        <div class="parallax__cover">
+            <div class="container">
+                <div class="row">
+                <div class="col-12 col-lg-7">
+                    <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1"><strong><br></strong><br><strong>A Story-driven Game</strong><br><strong><br></strong></h1>
+                    
+                    <p class="mbr-text mbr-fonts-style display-7">Giman is a strong kid who is looking for his true purposes of live. He supposed to go to Jogjakarta, a city full of hope. Will he survive during his adventure? Find out now...<br><br></p>
+
+                    <div class="mbr-section-btn mt-3"><a class="btn btn-white-outline display-5" href="#"><span class="socicon socicon-apple mbr-iconfont mbr-iconfont-btn"></span>App Store</a>
+                        <a class="btn btn-white-outline display-5" href="#"><span class="socicon socicon-play mbr-iconfont mbr-iconfont-btn"></span>Play Store</a></div>
+
+
+                </div>
+
+        </div>
+        
+        <!-- ARROW DOWN START -->
+    <div class="container-arrow" ><a href="index.html#header2-9">
+        <span class="circle">
+        <i class="fa fa-arrow-down"></i>
+        </span>
+        <span class="pulse"></span></a>
+    </div>
+    <!-- ARROW DOWN ENDS -->
+        
+        </div>
+    </div>
+</section>
+
+<section class="header2 cid-sd5l63v0gF mbr-parallax-background" id="header2-9">
+
+    
+
+    <div class="mbr-overlay" style="opacity: 0; background-color: rgb(45, 17, 43);"></div>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-7">
+                <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1"><strong>Adventurous, Tricky, Fun Quests!</strong><br><strong>&gt;</strong></h1>
+                
+                
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="gallery1 cid-sd8VoB6r1w" id="gallery1-e">
+    
+    
+    <div class="container">
+        <div class="mbr-section-head">
+            <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                <strong>As mentioned in</strong></h4>
+            
+        </div>
+        <div class="row mt-4">
+            <div class="item features-image сol-12 col-md-6 col-lg-6">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <img src="assets/images/pfn-awards-1.svg" alt="google awards">
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            <div class="item features-image сol-12 col-md-6 col-lg-6">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <img src="assets/images/pfn-awards-2.svg" alt="best game awards">
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            <div class="item features-image сol-12 col-md-6 col-lg-6">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <img src="assets/images/pfn-awards-3.svg" alt="kemenparekraf">
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            <div class="item features-image сol-12 col-md-6 col-lg-6">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <img src="assets/images/pfn-awards-4.svg" alt="4Crows Digital" title="">
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="header5 cid-sd5l7gi5gN mbr-fullscreen" data-bg-video="https://www.youtube.com/watch?v=nsbdtdPkbr4&amp;loop=0&amp;autoplay=1" id="header5-a">
+
+    
+
+    <div class="mbr-overlay" style="opacity: 0.7; background-color: rgb(45, 17, 43);"></div>
+
+    <div class="container">
+        <div class="row justify-content-end">
+            <div class="col-12 col-lg-7">
+                <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1"><strong>GAME TRAILER</strong></h1>
+                
+                <p class="mbr-text mbr-fonts-style mbr-white display-7">THE THOUGHT ADVENTURE OF A YOUNG GIMAN!</p>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="testimonails3 carousel slide testimonials-slider cid-sd5w2x1rdV" data-interval="false" id="testimonials3-b">
+
+    
+
+    
+
+    <div class="text-center container">
+        <h3 class="mb-4 mbr-fonts-style display-2"><strong>What Our Fantastic Users Say</strong>
+        </h3>
+
+        <div class="carousel slide" role="listbox" data-pause="true" data-keyboard="false" data-ride="carousel" data-interval="3000">
+            <div class="carousel-inner">
+                
+                
+            <div class="carousel-item">
+                    <div class="user col-md-8">
+                        <div class="user_image">
+                            <img src="assets/images/egd-testi-06-400x430.png" alt="">
+                        </div>
+                        <div class="user_text mb-4">
+                            <p class="mbr-fonts-style display-7">This is absolutely a new way to experience and feel a story. I know it very well, deep down in the creators mind must lay a comprehensive understanding about Indonesia.</p>
+                        </div>
+                        <div class="user_name mbr-fonts-style mb-2 display-7">
+                            <strong>Berby Christine</strong></div>
+                        <div class="user_desk mbr-fonts-style display-7">DESIGNER</div>
+                    </div>
+                </div><div class="carousel-item">
+                    <div class="user col-md-8">
+                        <div class="user_image">
+                            <img src="assets/images/egd-testi-03-400x398.png" alt="">
+                        </div>
+                        <div class="user_text mb-4">
+                            <p class="mbr-fonts-style display-7">The visual arts is just amazing. The whole content quality are just beyond my expectation. It fits my expectation!
+                            </p>
+                        </div>
+                        <div class="user_name mbr-fonts-style mb-2 display-7">
+                            <strong>Hannah De Jong</strong></div>
+                        <div class="user_desk mbr-fonts-style display-7">
+                            INFLUENCER - YOUTUBE CREATOR</div>
+                    </div>
+                </div><div class="carousel-item">
+                    <div class="user col-md-8">
+                        <div class="user_image">
+                            <img src="assets/images/egd-testi-04-400x366.png" alt="">
+                        </div>
+                        <div class="user_text mb-4">
+                            <p class="mbr-fonts-style display-7">
+                                You should try this game!. Executed very well, from concept to delivery.</p>
+                        </div>
+                        <div class="user_name mbr-fonts-style mb-2 display-7">
+                            <strong>Lindsay Ana Mint</strong></div>
+                        <div class="user_desk mbr-fonts-style display-7">ANIMATOR AT MOCCA</div>
+                    </div>
+                </div><div class="carousel-item">
+                    <div class="user col-md-8">
+                        <div class="user_image">
+                            <img src="assets/images/egd-testi-05-400x430.png" alt="">
+                        </div>
+                        <div class="user_text mb-4">
+                            <p class="mbr-fonts-style display-7">
+                                This is not the first time I play such a game, but what you have in All Rails to Jogja is just awesome. Please add more weapons in your upcoming update!</p>
+                        </div>
+                        <div class="user_name mbr-fonts-style mb-2 display-7"><strong>Sandio Cak Wik</strong></div>
+                        <div class="user_desk mbr-fonts-style display-7">
+                            WEB DEVELOPER</div>
+                    </div>
+                </div></div>
+
+            <div class="carousel-controls">
+                <a class="carousel-control-prev" role="button" data-slide="prev">
+                    <span aria-hidden="true" class="mobi-mbri mobi-mbri-arrow-prev mbr-iconfont"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+
+                <a class="carousel-control-next" role="button" data-slide="next">
+                    <span aria-hidden="true" class="mobi-mbri mobi-mbri-arrow-next mbr-iconfont"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="countdown3 cid-sd5w5meICI" id="countdown3-c">
+    
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <h3 class="mbr-section-title mb-5 align-center mbr-fonts-style display-2">
+                    <strong>Coming Soon</strong>
+                </h3>
+                
+                <div class="countdown-cont align-center mb-5">
+                    <div class="daysCountdown col-xs-3 col-sm-3 col-md-3" title="Days"></div>
+                    <div class="hoursCountdown col-xs-3 col-sm-3 col-md-3" title="Hours"></div>
+                    <div class="minutesCountdown col-xs-3 col-sm-3 col-md-3" title="Minutes"></div>
+                    <div class="secondsCountdown col-xs-3 col-sm-3 col-md-3" title="Seconds"></div>
+                    <div class="countdown" data-due-date="2021/09/01"></div>
+                </div>
+                <p class="mbr-text mb-5 align-center mbr-fonts-style display-7">
+                    Follow us to find out when Mocca launches the game</p>
+                <div class="icons-menu row justify-content-center display-7">
+                    
+                    
+                    
+                    
+                <div class="soc-item col-auto">
+                        <a href="https://www.instagram.com/mocca.studio/" target="_blank" class="social__link">
+                            <span class="mbr-iconfont socicon-instagram socicon"></span>
+                        </a>
+                    </div><div class="soc-item col-auto">
+                        
+                            <a href="https://www.mocca.studio" target="_blank"><span class="mbr-iconfont mobi-mbri-globe-2 mobi-mbri"></span></a>
+                        
+                    </div><div class="soc-item col-auto">
+                        <a href="https://www.facebook.com/MoccaAnimation/" target="_blank" class="social__link">
+                            <span class="mbr-iconfont socicon-facebook socicon"></span>
+                        </a>
+                    </div><div class="soc-item col-auto">
+                        <a href="https://www.youtube.com/user/moccaanimation" target="_blank" class="social__link">
+                            <span class="mbr-iconfont socicon-youtube socicon"></span>
+                        </a>
+                    </div></div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="footer4 cid-sd5wKHSbQu" once="footers" id="footer4-d">
+
+    
+    
+    <div class="container">
+        <div class="row mbr-white">
+            <div class="col-6 col-lg-3">
+                <div class="media-wrap col-md-8 col-12">
+                    <a href="http://moccaanimation.com">
+                        <img src="assets/images/moccaxpfn-logo-web-3.svg" alt="mocca">
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                
+                <p class="mbr-text mbr-fonts-style mb-4 display-4">
+                    Mocca is one of the best animation and games company in Indonesia :)</p>
+                
+                <div class="social-row display-7">
+                    <div class="soc-item">
+                        <a href="https://www.facebook.com/MoccaAnimation/" target="_blank">
+                            <span class="mbr-iconfont socicon socicon-facebook"></span>
+                        </a>
+                    </div>
+                    <div class="soc-item">
+                        <a href="https://twitter.com/moccanimation" target="_blank">
+                            <span class="mbr-iconfont socicon socicon-twitter"></span>
+                        </a>
+                    </div>
+                    <div class="soc-item">
+                        <a href="https://www.instagram.com/mocca.studio/?hl=en" target="_blank">
+                            <span class="mbr-iconfont socicon socicon-instagram"></span>
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                
+                <ul class="list mbr-fonts-style display-5">
+                    <li class="mbr-text item-wrap">PFN Games</li>
+                    <li class="mbr-text item-wrap">4CROWS Digital</li>
+                    <li class="mbr-text item-wrap">Unreal Engine</li>
+                    <li class="mbr-text item-wrap">Google Playstore</li>
+                </ul>
+            </div>
+            <div class="col-12 mt-4">
+                <p class="mbr-text mb-0 mbr-fonts-style copyright align-center display-5">
+                    © Copyright 2020 Mocca - All Rights Reserved
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+    <script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/popper/popper.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/parallax/jarallax.min.js"></script>  <script src="assets/ytplayer/jquery.mb.ytplayer.min.js"></script>  <script src="assets/vimeoplayer/jquery.mb.vimeo_player.js"></script>  <script src="assets/bootstrapcarouselswipe/bootstrap-carousel-swipe.js"></script>  <script src="assets/mbr-testimonials-slider/mbr-testimonials-slider.js"></script>  <script src="assets/countdown/jquery.countdown.min.js"></script>  <script src="assets/theme/js/script.js"></script>  
+  
+  
+ <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
+</body>
+</html>

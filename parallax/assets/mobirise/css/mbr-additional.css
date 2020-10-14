@@ -4,7 +4,10 @@
 
 
 
-
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
 .btn {
   border-width: 2px;
@@ -727,6 +730,7 @@ a {
 .cid-sd4RQ1LGZU * {
   box-sizing: border-box;
 }
+
 .cid-sd4RQ1LGZU .parallax {
   transform-origin: bottom;
   transform: translateY(-100px);
@@ -737,7 +741,7 @@ a {
   width: 100vw;
   height: 100vh;
   overflow-x: hidden;
-  overflow-y: auto;
+  /* overflow-y: auto; */
   position: center;
 }
 .cid-sd4RQ1LGZU .parallax__layer {
@@ -793,6 +797,11 @@ a {
 
   /* ______ARROW______ */
   
+  .container-arrow :hover {
+    opacity: 50%;
+    animation: ease-in-out;
+    cursor: pointer;
+  }
   .container-arrow {
     height: 120px;
     width: 120px;
@@ -1079,7 +1088,38 @@ a {
   .cid-sd5w5meICI .period {
     font-size: 0.8rem;
   }
+  .cid-sd4RQ1LGZU {
+    transform: scale(2);
+    transform-origin: bottom;
+  }
+  .cid-sd4RQ1LGZU .parallax .parallax__cover {
+    align-content: center;
+    text-align: center;
+    transform: scale(.5);
+    transform-origin: top;
+    height: 1100px;
+  }
+  .cid-sd4RQ1LGZU .parallax .container-arrow {
+    transform: scale(.25);
+    transform-origin: bottom;
+    transform: translateY(-10px);
+  }
 }
+@media (min-width: 1930px) {
+  /* .cid-sd4RQ1LGZU {
+    height: 100vh;
+  } */
+  .cid-sd4RQ1LGZU .parallax .title-jogja {
+    /* transform: scale(.5); */
+    /* margin-top: 200px; */
+    /* translate: (0, 200px); */
+
+    transform-origin: bottom;
+    transform: translateY(380px);
+    transform: scale(.75);
+  }
+}
+
 .cid-sd5w5meICI .btn {
   height: 100%;
   margin: 0;
