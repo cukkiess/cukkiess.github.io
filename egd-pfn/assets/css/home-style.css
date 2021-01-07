@@ -737,6 +737,15 @@ welcome
     margin-right: 0px;
     padding-right: 0px;
   }
+
+  .container-swot {
+    padding-bottom: 100px;
+  }
+  .swot-btn{
+    transform: translateY(-80px);
+
+  }
+
 }
 
 /*
@@ -754,6 +763,14 @@ about
 @media (max-width: 992px) {
   .features-item {
     margin-bottom: 45px;
+  }
+
+  .container-swot {
+    padding-bottom: 100px;
+  }
+  .swot-btn{
+    transform: translateY(-80px);
+
   }
 }
 
@@ -954,6 +971,30 @@ testimonials
     display: none!important;
   }
 }
+
+/* 
+---------------------------------------------
+SWOT
+--------------------------------------------- 
+*/
+.swot-btn{
+
+  display: inline-flex;
+  position: absolute;
+  margin-top: 30px;
+  right: 50vw;
+  margin-right: -130px;
+  margin-bottom: -130px;
+  align-items: center;
+  justify-content: center;
+}
+/* background-image: url(assets/images/egd-web-swot.svg); */
+
+
+
+
+
+
 
 /* 
 ---------------------------------------------
